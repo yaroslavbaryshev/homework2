@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.row div {
+    min-width: 300px;
+    min-height: 300px;
+    /* border: 1px solid black; */
+    margin: 5px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-top: 15px; 
+}
+
+.row div p:last-child {
+    font-weight: bold;
+    margin-top: 70%;
+}
+
+.box1 {
+    background-color:Violet;
+}
+
+.box2 {
+    background-color:orchid;
+}
+
+.box3 {
+    background-color:fuchsia;
+}
+
+.box4 {
+    background-color: magenta;
+}
+
+.box5 {
+    background-color: mediumorchid;
+}
+
+.box6 {
+    background-color: mediumpurple;
+}
+
+.box7 {
+    background-color:blueviolet ;
+}
+
+.box8 {
+    background-color:darkviolet;
+}
+
+.box9 {
+    background-color:darkorchid ;
+}
+
+.box10 {
+    background-color:darkmagenta ;
+}
+
+.box11 {
+    background-color:purple ;
+}
+
+.box12 {
+    background-color:indigo ;
+}
+
+.box13 {
+    background-color:slateblue ;
+}
+
+.box14 {
+    background-color:darkslateblue ;
+}
+
+@media only screen and (max-width: 950px) {
+    .row  {
+        flex-wrap: wrap;
+    }
+    .row div {
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .row  {
+        flex-wrap: wrap;
+    }
+    .row div {
+        width: 45%;
+    }
+}
